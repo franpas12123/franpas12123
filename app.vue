@@ -1,9 +1,10 @@
 <template>
-  <div class="container mx-auto">
+  <div class="app container mx-auto">
     <BaseHeader />
     <main class="container">
       <BaseHero />
-      <div class="h-[100vh]"></div>
+      <MyServices />
+      <TechsUsed />
       <BaseContactMe />
       <BaseFooter />
     </main>
