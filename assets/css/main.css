@@ -2,10 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  @apply bg-bg text-white;
-  font-family: 'Montserrat', 'Roboto', sans-serif;
+body {
+  @apply scroll-smooth bg-bg text-white;
+  font-family: "Montserrat", "Roboto", sans-serif;
 }
 input {
   @apply rounded-full;
+}
+
+.shadow {
+  @apply shadow-lg shadow-cyan-700/50 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-cyan-500  hover:shadow-cyan-500/50;
+}
+
+.section-title {
+  @apply text-center text-4xl font-medium uppercase sm:text-left;
+}
+
+section {
+  @apply min-h-screen md:my-5 xl:my-0 xl:mt-0;
 }
